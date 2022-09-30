@@ -1,0 +1,37 @@
+{
+  "name": "next-todos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^2.4.4",
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^4.4.8",
+    "redux": "^3.7.0",
+    "redux-jet": "^1.4.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "standard"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "now": {
+    "name": "todos",
+    "alias": "todos.now.sh",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
